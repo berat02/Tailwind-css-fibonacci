@@ -7,9 +7,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
   <title>Fibonacci</title>
 </head>
-<body>
+<body class="bg-white dark:bg-black">
   <!--top banner-->
     <div class="relative">
         <img class="w-full h-56" src="./images/bg-img.jpg" alt="" srcset="">
@@ -24,7 +25,7 @@
              
             </div>
             <div class="pr-6">
-              <img class="w-6 h-6" src="./images/notification.png" alt="" srcset="">
+              <img onclick="darkMode()" class="w-6 h-6 cursor-pointer" src="./images/icons8-sun-64.png" alt="" srcset="">
             </div>
           </div>
         </div>
@@ -35,7 +36,7 @@
       <span>Yaklaşan Dersler</span>
     </div>
     <div>
-      <div class="w-auto h-36 mt-2 ml-6 mr-6 p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:border-gray-400">
+      <div class="w-auto h-36 mt-2 ml-6 mr-6 p-6 bg-white border-gray-200 rounded-lg shadow-md  dark:border-gray-400">
         <div class="w-full flex items-center justify-start">
           <img class="w-10 h-10 " src="./images/user.png" alt="" srcset="">
           <div class="ml-5 ">
@@ -74,7 +75,7 @@
       </div>
     </div>
     <!--bottom menu-->
-      <div class="w-full h-12 mt-6 shadow-md dark:shadow-gray-800 flex items-center justify-around">
+      <div class="w-full h-12 mt-6 shadow-md dark:shadow-white flex items-center justify-around">
         <img class="w-6 h-6" src="./images/home.png" alt="" srcset="">
         <img class="w-6 h-6" src="./images/takvim.png" alt="" srcset="">
         <img class="w-6 h-6" src="./images/sinav.png" alt="" srcset="">
